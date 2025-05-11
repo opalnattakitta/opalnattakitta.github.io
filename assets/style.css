@@ -79,6 +79,38 @@
 	color: #444;
 }
 
+/* Social Links */
+.social-links {
+	display: flex;
+	gap: 1rem;
+	margin-bottom: 5rem;
+}
+
+.social-button {
+	padding: 0.8rem 1.5rem;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 100px;
+	color: #1a1a1a;
+	text-decoration: none;
+	font-weight: 500;
+	transition: all 0.3s ease;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.social-button:hover {
+	background-color: #1a1a1a;
+	color: #fff;
+	border-color: #1a1a1a;
+}
+
+.social-button svg {
+	width: 20px;
+	height: 20px;
+}
+
 body {
 	background-color: #f9f7f5;
 	color: #1a1a1a;
