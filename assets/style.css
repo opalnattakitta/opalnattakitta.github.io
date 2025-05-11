@@ -15,7 +15,6 @@
 }
 
 /* navbar */
-
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -26,6 +25,7 @@
 	top: 0;
 	z-index: 1000;
 	backdrop-filter: blur(10px);
+}	
 
 .logo {
 	font-weight: 700;
@@ -85,21 +85,8 @@ body {
 	line-height: 1.6;
 }
 
-header {
-	background-color: var(--color--background);
-	padding-block: calc(5 * var(--base-size));	
-}
-
-section {
-	block-size: 75vh;
-}
-
 footer {
 	background-color: var(--color-secondary);
 	padding-top: var(--base-size);
 	padding-bottom: calc(5 * var(--base-size));
-}
-
-.gutters {
-	padding-inline: var(--gutter-size);
 }
