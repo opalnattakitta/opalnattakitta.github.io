@@ -14,6 +14,8 @@
 	font-family: 'Outfit', sans-serif;
 }
 
+/* navbar */
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -49,6 +51,33 @@
 	color: #f75246;
 }
 
+/* container */
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+/* header */
+.header {
+	padding: 6rem 0 4rem;
+}
+
+.header h1 {
+	font-size: 3.5rem;
+	font-weight: 600;
+	line-height: 1.2;
+	max-width: 80%;
+	margin-bottom: 2rem;
+}
+
+.header p {
+	font-size: 1.25rem;
+	max-width: 60%;
+	margin-bottom: 3rem;
+	font-weight: 300;
+	color: #444;
+}
 
 body {
 	background-color: #f9f7f5;
