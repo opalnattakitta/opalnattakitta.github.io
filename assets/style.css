@@ -209,7 +209,8 @@ body {
 }
 
 footer {
-	background-color: var(--color-secondary);
-	padding-top: var(--base-size);
-	padding-bottom: calc(5 * var(--base-size));
+	padding: 3rem 5%;
+	background-color: #fff;
+	text-align: center;
+	color: #666;
 }
