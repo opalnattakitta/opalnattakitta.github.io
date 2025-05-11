@@ -1,3 +1,12 @@
+:root {
+	--base-size: 12px;
+	--gutter-size: calc(3 * var(--base-size));
+
+	--color-primary: black;
+	--color-secondary: gold;
+	--color--background: tomato;
+}	
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,13 +14,29 @@
 	font-family: 'Outfit', sans-serif;
 }
 
-body {
-	--base-size: 12px;
-	--gutter-size: calc(3 * var(--base-size));
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem 5%;
+	background-color: rgba(249, 247, 245, 0.9);
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	backdrop-filter: blur(10px);
 
-	--color-primary: black;
-	--color-secondary: gold;
-	--color--background: tomato;
+.logo {
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+
+body {
+	background-color: #f9f7f5;
+	color: #1a1a1a;
+	line-height: 1.6;
 }
 
 header {
